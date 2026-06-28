@@ -1,0 +1,32 @@
+@theme {
+  --color-cream: #FFF8F0;
+  --color-chocolate: #5C3A21;
+  --color-pink: #F7C6C7;
+  --color-gold: #D4AF37;
+  --color-white: #FFFFFF;
+  --color-chocolate-light: #7A5333;
+  --color-chocolate-dark: #3E2413;
+
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Poppins', sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: var(--color-cream);
+    --foreground: var(--color-chocolate);
+  }
+
+  body {
+    @apply font-body bg-cream text-chocolate;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-chocolate;
+  }
+}
+
+/* Scrollbar and smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
