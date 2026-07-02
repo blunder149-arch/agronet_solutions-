@@ -29,7 +29,7 @@
                                             <a class="tp-btn" href="{{ route('contact') }}">Get Free Quote</a>
                                         </div>
                                         <div class="tp-hero-video">
-                                            <a class="popup-video" href="https://www.youtube.com/watch?v=Fj-y57vT1oQ">
+                                            <a class="popup-video" href="https://www.youtube.com/watch?v=xUuATOsh0EU">
                                                 <span><i class="fa-regular fa-play"></i></span>
                                                 <p class="text-white">Watch Our <br> Showcase</p>
                                             </a>
@@ -62,7 +62,7 @@
                                             <a class="tp-btn" href="{{ route('products.index') }}">Discover Products</a>
                                         </div>
                                         <div class="tp-hero-video">
-                                            <a class="popup-video" href="https://www.youtube.com/watch?v=Fj-y57vT1oQ">
+                                            <a class="popup-video" href="https://www.youtube.com/watch?v=xUuATOsh0EU">
                                                 <span><i class="fa-regular fa-play"></i></span>
                                                 <p class="text-white">Watch Our <br> Showcase</p>
                                             </a>
@@ -95,7 +95,7 @@
                                             <a class="tp-btn" href="{{ route('contact') }}">Contact Now</a>
                                         </div>
                                         <div class="tp-hero-video">
-                                            <a class="popup-video" href="https://www.youtube.com/watch?v=Fj-y57vT1oQ">
+                                            <a class="popup-video" href="https://www.youtube.com/watch?v=xUuATOsh0EU">
                                                 <span><i class="fa-regular fa-play"></i></span>
                                                 <p class="text-white">Watch Our <br> Showcase</p>
                                             </a>
@@ -201,7 +201,17 @@
                             </div>
                         </div>
                         <div class="tp-about-right">
-                            <img src="{{ asset('assets/img/about/about-thumb-3.jpg') }}" alt="" style="border-radius: 8px;">
+                            <!-- Custom CSS-based Premium Experience Card -->
+                            <div class="tp-about-experience-card d-flex align-items-center" style="background: #ffffff; border-radius: 12px; padding: 20px 25px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); border: 1px solid #f0f2f5; margin-bottom: 25px; gap: 15px;">
+                                <div class="experience-icon" style="width: 50px; height: 50px; border-radius: 50%; background: rgba(200, 168, 75, 0.12); display: flex; align-items: center; justify-content: center; color: var(--tp-theme-secondary); font-size: 24px; flex-shrink: 0;">
+                                    <i class="fa-solid fa-trophy"></i>
+                                </div>
+                                <div>
+                                    <h4 style="font-family: var(--tp-ff-heading); font-size: 26px; font-weight: 800; color: var(--tp-heading-secondary); margin-bottom: 0; line-height: 1;">20</h4>
+                                    <span style="font-size: 13px; color: var(--tp-text-body); font-weight: 700; line-height: 1.2; display: block; margin-top: 4px;">Years of <br> Experience</span>
+                                </div>
+                            </div>
+                            
                             <div class="tp-about-icon-2 d-flex align-items-center">
                                 <i class="fa-solid fa-truck" style="font-size: 32px; color: var(--tp-theme-primary); margin-right: 15px;"></i>
                                 <p>PAN India <br> Delivery Network</p>

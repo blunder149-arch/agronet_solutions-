@@ -8,7 +8,7 @@
     <title>@yield('title', 'AgroNet Solutions') — Premium Shade Net & Agricultural Net Manufacturer</title>
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.png') }}?v=3">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
